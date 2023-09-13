@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+.product-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+}
+
+.cart-item {
+    margin: 5px 0;
+}
+
+.billing {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+/* ...existing CSS... */
+
+/* Add these styles for the payment form */
+#payment-form label,
+#payment-form input {
+    display: block;
+    margin-top: 10px;
+}
+
+
+#total, #discount-code, #payment-options {
+    margin-top: 20px;
+}
+
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+}

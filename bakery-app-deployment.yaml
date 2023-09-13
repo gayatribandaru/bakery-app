@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bakery-app-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: bakery-app
+  template:
+    metadata:
+      labels:
+        app: bakery-app
+    spec:
+      containers:
+# BEGIN: ed8c6549bwf9
+      - name: bakery-app-container-1
+        image: gayatri3124/bakery-app:latest
+        ports:
+        - containerPort: 80
+        resources:
+          limits:
+            cpu: "1"
+            memory: "512Mi"
+          requests:
+            cpu: "0.5"
+            memory: "256Mi"
+     
+
+
