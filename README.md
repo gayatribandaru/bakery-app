@@ -1,6 +1,7 @@
 # bakery-app
 
 Table of Contents
+
 Overview
 Technologies Used
 Architecture
@@ -12,6 +13,7 @@ Installation
 Deployment
 
 Overview
+
 The Bakery Application is designed to manage a virtual bakery store. It started as a monolithic application and was later transformed into a micro services - based architecture for better scalability and maintainability.
 
 What was its initial state?
@@ -21,7 +23,8 @@ are interwoven and cannot be decoupled easily. They all run in a single service 
 Why did it transform into a microservices-based architecture?
 The application later transitioned into a "microservices-based architecture" for better "scalability" and "maintainability."
 
-Technologies Used
+Technologies 
+
 Docker
 Kubernetes
 HTML
@@ -29,6 +32,7 @@ CSS
 JAVASCRIPT
 
 Architecture
+
 Before: Monolithic Architecture
 The initial version was a monolithic application handling:
 
@@ -47,12 +51,8 @@ Order Service: Manages customer orders.
 Payment Service: Handles payment processing.
 Notification Service: Sends out notifications.
 
-Getting Started
-Prerequisites
-Docker
-Kubernetes
-Node.js
 Installation
+
   Clone the repo
 
 git clone https://github.com/your-username/bakery-application.git
@@ -66,6 +66,7 @@ docker build -t user-service .
 kubectl apply -f user-service-deployment.yaml
 
 Conclusion
+
 The Bakery Application has evolved from a monolithic architecture to a more scalable and maintainable microservices-based architecture. This transformation enables the application to efficiently 
 manage different aspects of a virtual bakery store, from user authentication to order processing.
 By embracing containerization and Kubernetes, the application is now well-positioned for future growth and can easily adapt to changing business requirements. 
