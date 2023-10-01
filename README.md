@@ -72,3 +72,10 @@ manage different aspects of a virtual bakery store, from user authentication to 
 By embracing containerization and Kubernetes, the application is now well-positioned for future growth and can easily adapt to changing business requirements. 
 Whether you're a developer interested in contributing or a business looking for a robust 
 bakery management solution, this application offers a flexible and scalable approach to meet your needs.
+
+# Monolith Architecture Diagram (Before)
+<img width="611" alt="image" src="https://github.com/gayatribandaru/bakery-app/assets/51997864/6f63f5e7-4e45-4ee0-af90-0ca766e0ad0c">
+
+# Microservice Architecture Diagram (After)
+<img width="560" alt="image" src="https://github.com/gayatribandaru/bakery-app/assets/51997864/1ffd8350-2a24-4f4c-9f20-070654fe5ecb">
+
